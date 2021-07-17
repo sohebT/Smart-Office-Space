@@ -1,0 +1,58 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.employee_entry_exit_app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="27"
+8-->D:\Manthan_Shenoy\stuttgart_class\Summer 2021\mobile_computing\Android tutorials\Employee_entry_exit_app\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\Manthan_Shenoy\stuttgart_class\Summer 2021\mobile_computing\Android tutorials\Employee_entry_exit_app\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[com.amazonaws:aws-android-sdk-iot:2.15.2] C:\Users\manth\.gradle\caches\transforms-2\files-2.1\0d47ddbefd9a6deb271836dd185e5442\aws-android-sdk-iot-2.15.2\AndroidManifest.xml:2:5-66
+11-->[com.amazonaws:aws-android-sdk-iot:2.15.2] C:\Users\manth\.gradle\caches\transforms-2\files-2.1\0d47ddbefd9a6deb271836dd185e5442\aws-android-sdk-iot-2.15.2\AndroidManifest.xml:2:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.amazonaws:aws-android-sdk-mobile-client:2.15.2] C:\Users\manth\.gradle\caches\transforms-2\files-2.1\0cca1f961f71cc92fb15ff70af6f3ece\aws-android-sdk-mobile-client-2.15.2\AndroidManifest.xml:7:5-78
+15-->[com.amazonaws:aws-android-sdk-mobile-client:2.15.2] C:\Users\manth\.gradle\caches\transforms-2\files-2.1\0cca1f961f71cc92fb15ff70af6f3ece\aws-android-sdk-mobile-client-2.15.2\AndroidManifest.xml:7:22-76
+16
+17    <application
+17-->D:\Manthan_Shenoy\stuttgart_class\Summer 2021\mobile_computing\Android tutorials\Employee_entry_exit_app\app\src\main\AndroidManifest.xml:5:5-19:19
+18        android:allowBackup="true"
+18-->D:\Manthan_Shenoy\stuttgart_class\Summer 2021\mobile_computing\Android tutorials\Employee_entry_exit_app\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.5.0] C:\Users\manth\.gradle\caches\transforms-2\files-2.1\07adfc08fe16d3453ab9291511ec05fe\core-1.5.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+22        android:icon="@mipmap/ic_launcher"
+22-->D:\Manthan_Shenoy\stuttgart_class\Summer 2021\mobile_computing\Android tutorials\Employee_entry_exit_app\app\src\main\AndroidManifest.xml:7:9-43
+23        android:label="@string/app_name"
+23-->D:\Manthan_Shenoy\stuttgart_class\Summer 2021\mobile_computing\Android tutorials\Employee_entry_exit_app\app\src\main\AndroidManifest.xml:8:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->D:\Manthan_Shenoy\stuttgart_class\Summer 2021\mobile_computing\Android tutorials\Employee_entry_exit_app\app\src\main\AndroidManifest.xml:9:9-54
+25        android:supportsRtl="true"
+25-->D:\Manthan_Shenoy\stuttgart_class\Summer 2021\mobile_computing\Android tutorials\Employee_entry_exit_app\app\src\main\AndroidManifest.xml:10:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.Employee_entry_exit_app" >
+27-->D:\Manthan_Shenoy\stuttgart_class\Summer 2021\mobile_computing\Android tutorials\Employee_entry_exit_app\app\src\main\AndroidManifest.xml:11:9-61
+28        <activity android:name="com.example.employee_entry_exit_app.PubSubActivity" >
+28-->D:\Manthan_Shenoy\stuttgart_class\Summer 2021\mobile_computing\Android tutorials\Employee_entry_exit_app\app\src\main\AndroidManifest.xml:12:9-18:20
+28-->D:\Manthan_Shenoy\stuttgart_class\Summer 2021\mobile_computing\Android tutorials\Employee_entry_exit_app\app\src\main\AndroidManifest.xml:12:19-49
+29            <intent-filter>
+29-->D:\Manthan_Shenoy\stuttgart_class\Summer 2021\mobile_computing\Android tutorials\Employee_entry_exit_app\app\src\main\AndroidManifest.xml:13:13-17:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->D:\Manthan_Shenoy\stuttgart_class\Summer 2021\mobile_computing\Android tutorials\Employee_entry_exit_app\app\src\main\AndroidManifest.xml:14:17-69
+30-->D:\Manthan_Shenoy\stuttgart_class\Summer 2021\mobile_computing\Android tutorials\Employee_entry_exit_app\app\src\main\AndroidManifest.xml:14:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->D:\Manthan_Shenoy\stuttgart_class\Summer 2021\mobile_computing\Android tutorials\Employee_entry_exit_app\app\src\main\AndroidManifest.xml:16:17-77
+32-->D:\Manthan_Shenoy\stuttgart_class\Summer 2021\mobile_computing\Android tutorials\Employee_entry_exit_app\app\src\main\AndroidManifest.xml:16:27-74
+33            </intent-filter>
+34        </activity>
+35    </application>
+36
+37</manifest>
